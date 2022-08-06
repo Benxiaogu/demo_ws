@@ -1,0 +1,8 @@
+prefix=/home/sundawn/batkin_ws/devel
+
+Name: dawnparam
+Description: Description of dawnparam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

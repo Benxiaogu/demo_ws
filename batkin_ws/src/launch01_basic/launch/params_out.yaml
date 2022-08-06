@@ -1,0 +1,17 @@
+bg_B: 255
+bg_G: 50
+bg_R: 100
+my_turtle: {background_b: 255, background_g: 86, background_r: 69, bg_B: 255, bg_G: 50,
+  bg_R: 100, param_B: 3.14}
+param_A: 100
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_mechrev_han__33757: 'http://Mechrev-han:33757/', host_mechrev_han__35527: 'http://Mechrev-han:35527/',
+    host_mechrev_han__35651: 'http://Mechrev-han:35651/', host_mechrev_han__41041: 'http://Mechrev-han:41041/',
+    host_mechrev_han__41471: 'http://Mechrev-han:41471/'}
+rosversion: '1.14.13
+
+  '
+run_id: 916de95e-fed0-11ec-bb7e-9cfce8601d50

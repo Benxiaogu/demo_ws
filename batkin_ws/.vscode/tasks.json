@@ -1,0 +1,56 @@
+// {
+// 	"version": "2.0.0",
+// 	"tasks": [
+// 		{
+// 			"type": "catkin_make",
+// 			"args": [
+// 				"--directory",
+// 				"/home/sundawn/batkin_ws",
+// 				"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+// 			],
+// 			"problemMatcher": [
+// 				"$catkin-gcc"
+// 			],
+// 			"group": "build",
+// 			"label": "catkin_make: build"
+// 		}
+// 	]
+// }
+
+{
+	// 有关 tasks.json 格式的文档，请参见
+		// https://go.microsoft.com/fwlink/?LinkId=733558
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "catkin_make:debug",
+				"type": "shell",
+				"command": "catkin_make",
+				"args": [],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				},
+				"presentation": {
+					"reveal": "always"
+				},
+				"problemMatcher": "$msCompile"
+			},
+			{
+				"type": "catkin_make",
+				"args": [
+					"--directory",
+					"/home/sundawn/batkin_ws",
+					"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+				],
+				"problemMatcher": [
+					"$catkin-gcc"
+				],
+				"group": "build",
+				"label": "catkin_make: build"
+			}
+		]
+	}
+	
+
+	

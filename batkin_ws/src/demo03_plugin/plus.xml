@@ -1,0 +1,14 @@
+<!-- 
+    需要定位动态连接库
+        library 根标签下的 path 属性设置
+    声明子类与父类
+        library 的子标签 class 声明
+ -->
+<library path="lib/libplus">
+    <class type="dbx_plugins_ns::Triangle" base_class_type="polygon_base::RegularPolygon">
+        <description>这是正三角形插件</description>
+    </class>
+    <class type="dbx_plugins_ns::Square" base_class_type="polygon_base::RegularPolygon">
+        <description>这是正四边形插件</description>
+    </class>
+</library>

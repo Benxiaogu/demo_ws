@@ -1,0 +1,13 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 属性定义 -->
+    <xacro:property name="PI" value="3.1415927" />
+    <xacro:property name="radius" value="0.03" />
+
+    <!-- 属性调用 -->
+    <UserPropertyxxx name="${PI}" />
+    <UserPropertyxxx name="${radius}" />
+
+    <!-- 算数运算 -->
+    <UserPropertyxxx result="${PI / 2}" />
+    <UserPropertyxxx result="${radius * 2}" />
+</robot>
